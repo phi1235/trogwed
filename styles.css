@@ -1,0 +1,39 @@
+#wrapper{
+    max-width: 960px;
+    margin: 0 auto;
+}
+#header{
+    background-color: rgb(13, 209, 13);
+    color: rgb(15, 15, 15);
+    text-align: center;
+    padding: 5px;
+}
+#footer{
+    background-color: rgb(129, 131, 133);
+    padding: 15px;
+}
+
+#wp-content{
+    display: flex;
+}
+#sidebar{
+    flex-basis: 30%;
+    background-color: #f5f5f5;
+    padding: 10px 15px;
+}
+.list-course{
+    padding-left: 0px;
+    list-style: none;
+}
+#content{
+    flex-basis: 70%;
+}
+.gach-chan{
+    text-decoration: underline;
+    
+}
+#wp-content img{
+    display: block;
+    margin: 20px auto;
+    border-radius: 20px 20px 20px 20px;
+}
